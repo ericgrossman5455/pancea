@@ -435,6 +435,7 @@ button:focus{outline: none;}
 
 .testimonials-wrapper{
     overflow-x: hidden;
+    overflow-y: hidden;
     position: relative;
 }
 
@@ -634,15 +635,16 @@ button:focus{outline: none;}
 
 @media only screen and (max-width: 50rem){
     .cta{
-        grid-template-rows: 31em auto;
+        grid-template-rows: 40em 10em;
         margin: 0 auto 10vh;
+        height: auto;
         overflow-x: hidden;
 
     }
 
     .cta-image{
         transform: scale(1.2) translateX(-1em);
-        transform-origin: top;
+        transform-origin: center;
         grid-column: 1/-1;
         width: auto;
         height: 28em;
